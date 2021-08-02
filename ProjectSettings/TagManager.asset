@@ -12,6 +12,14 @@ TagManager:
   - tup2
   - tup3
   - hava
+  - mor
+  - tup4
+  - tup5
+  - sari
+  - yesil
+  - tup6
+  - tup7
+  - siyah
   layers:
   - Default
   - TransparentFX
@@ -21,7 +29,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - cylinder
   - 
   - 
   - 

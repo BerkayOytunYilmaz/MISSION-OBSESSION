@@ -34,7 +34,7 @@ public class Control : MonoBehaviour
 
     private void OnTriggerEnter(Collider nesne)
     {
-        if (nesne.transform.tag == "mavi" || nesne.transform.tag == "kirmizi")
+        if (nesne.transform.tag == "mavi" || nesne.transform.tag == "kirmizi" || nesne.transform.tag == "mor" || nesne.transform.tag == "sari" || nesne.transform.tag == "yesil" || nesne.transform.tag == "siyah")
         {
             havada = true;
             //Debug.Log("havada");
@@ -43,7 +43,7 @@ public class Control : MonoBehaviour
     }
     private void OnTriggerExit(Collider nesne)
     {
-        if (nesne.transform.tag == "mavi" || nesne.transform.tag == "kirmizi")
+        if (nesne.transform.tag == "mavi" || nesne.transform.tag == "kirmizi" || nesne.transform.tag == "mor" || nesne.transform.tag == "sari" || nesne.transform.tag == "yesil" || nesne.transform.tag == "siyah")
         {
             havada = false;
             //Debug.Log("yerde");
